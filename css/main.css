@@ -95,7 +95,7 @@ nav .profile-link a {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   height: 100%;
-  background-image: url("https://wallpapers.com/images/high/aesthetic-pixel-art-hd-326nc9sw8qkpq2gu.webp");
+  background-image: url("https://art.pixilart.com/sr2503f49eda1ef.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,7 +105,7 @@ nav .profile-link a {
   display: grid;
   grid-column: 2;
   justify-items: center;
-  height: 350px;
+  height: 250px;
   margin-top: 80px;
 }
 
@@ -113,7 +113,11 @@ nav .profile-link a {
   font: 700 40px "pixel";
   /* letter-spacing: 4px; */
   color: white;
+  border: 4px solid white;
   text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #201e1c80;
 }
 
 .home-main-button {
