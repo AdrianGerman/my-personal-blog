@@ -1,3 +1,9 @@
+:root {
+  --color-primary: #7a4287;
+  --color-discard: #47cfac;
+  --color-background: #201e1c;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,12 +12,13 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  background-color: var(--color-background);
+  color: white;
 }
 
 a {
   text-decoration: none;
   display: inline;
-  color: black;
 }
 
 header {
@@ -25,7 +32,7 @@ header .header-icons-container {
   width: 100%;
   height: 50px;
   display: grid;
-  background-color: #47cfac;
+  background-color: var(--color-primary);
 }
 
 header .header-icons-container .icons {
@@ -41,6 +48,10 @@ header .header-icons-container .icons {
 
 header .icons span {
   color: white;
+}
+
+.icons span:hover {
+  color: var(--color-background);
 }
 
 nav {
@@ -66,6 +77,6 @@ nav .profile-link {
 }
 
 nav .profile-link a {
-  color: black;
-  border-bottom: 2px solid black;
+  color: white;
+  border-bottom: 2px solid white;
 }
