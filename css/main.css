@@ -1,3 +1,5 @@
+@import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap’);
+
 :root {
   --color-primary: #7a4287;
   --color-discard: #47cfac;
@@ -85,7 +87,7 @@ nav .profile-link a {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   height: 100%;
-  background-image: url("https://media.istockphoto.com/id/1403514917/es/vector/planetas-y-fondo-de-nebulosa-en-estilo-pixel-art.jpg?s=2048x2048&w=is&k=20&c=oVYhaSFPq__Ht1Rv3_u7NB4xnzECEVxSFdWlu9-Rxw8=");
+  background-image: url("https://cdn.pixabay.com/photo/2023/01/19/09/43/mountains-7728691_1280.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,8 +102,7 @@ nav .profile-link a {
 }
 
 .home-main-text {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 10px;
-  color: white;
+  font: 700 30px "Roboto Mono", monospace;
+  letter-spacing: 6px;
+  color: black;
 }
