@@ -206,11 +206,12 @@ nav .profile-link a {
   background-color: var(--color-primary);
 }
 
-.blogs-posts-container .post-container {
-  display: inline-block;
-  padding-left: 10px;
-  max-width: 30%;
-  margin-bottom: 50px;
+.blogs-cards-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 50px 25px;
+  margin: 20px 0 40px;
 }
 
 .blogs-posts-container .post-container p {
