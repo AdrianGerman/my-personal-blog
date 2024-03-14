@@ -23,6 +23,7 @@ body {
 a {
   text-decoration: none;
   display: inline;
+  color: white;
 }
 
 .home-body {
@@ -251,4 +252,33 @@ footer p {
 
 .blogpost-main-container article h1 {
   font-size: 35px;
+}
+
+.contact-main-container {
+  width: 100%;
+  min-height: 250px;
+  background-color: #474747;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact-main-container div {
+  display: inline-block;
+  width: 49.5%;
+  height: 100%;
+}
+
+.contact-main-container div a {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left,
+.contact-right {
+  text-align: initial;
+  margin-top: 85px;
+}
+
+.contact-main-container img {
+  width: 100px;
 }
