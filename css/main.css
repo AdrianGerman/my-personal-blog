@@ -283,6 +283,7 @@ footer p {
 
 .contact-main-container img {
   width: 100px;
+  cursor: pointer;
 }
 
 .profile-main-container {
@@ -316,4 +317,8 @@ footer p {
 
 .proyect-container {
   padding: 0 5px;
+}
+
+.proyect-container img {
+  width: 100%;
 }
